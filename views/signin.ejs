@@ -1,0 +1,24 @@
+<html>
+<% include head %>
+<body>
+<h1><%= title %></h1>
+<div>
+    <form action='/signin/temp' method='post'>
+        <table>
+            <tr>
+                <td><label>Yours Name:</label></td>
+                <td><input type='text' name='username'/></td>
+            </tr>
+            <tr>
+                <td><label>Yours Password:</label></td>
+                <td><input type='password' name='password'/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input style='float: right' type='submit' value='sign in'/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
